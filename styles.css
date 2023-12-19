@@ -1,0 +1,19 @@
+body{
+background-color: antiquewhite;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.card{
+    margin: 5% 0% 5% 0%;
+}
+
+.selectores{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
