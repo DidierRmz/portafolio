@@ -1,6 +1,6 @@
 let theme = document.getElementById("idTema");
 theme.addEventListener("change",cambiarTheme);
-onload
+
 
 function cambiarTheme() {
     console.log(theme);
