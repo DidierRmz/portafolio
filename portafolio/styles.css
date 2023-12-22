@@ -1,0 +1,114 @@
+body{
+background-color: rgb(255, 247, 237);
+}
+
+h2{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.card{
+    margin: 5% 0% 5% 0%;
+    padding: 3%;
+}
+
+.selectores{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn.btn-buy{
+    background-color: red;
+    color: white;
+    padding: 3% 10% 3% 10%;
+}
+
+button.btn.btn-buy:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.header{
+    padding: 5% 0% 5% 0%;
+}
+
+.footer{
+    height: 300px;
+    background-color: red;
+    margin-top: 5%;
+}
+
+/*Light*/
+/* .theme-light {
+    background-color: white;
+}
+.theme-light{
+    color: black;
+}
+ */
+/*Dark*/
+.theme-dark{
+    background-color: dimgray;
+}
+.theme-dark h2{
+    color: white;
+}
+.theme-dark p{
+    color: white;
+}
+.theme-dark span{
+    color: white;
+}
+.theme-dark .card{
+    background-color: #333;
+}
+.theme-dark button.btn.btn-buy{
+    background-color: dimgray;
+}
+.theme-dark button.btn.btn-buy:hover{
+    background-color: white;
+    color: #333;
+    border: 1px solid dimgray;
+}
+.theme-dark .form-select{
+    background-color: dimgray;
+    color: white;
+}
+.theme-dark .footer{
+    background-color: #333;
+}
+
+/*Dark blue*/
+.theme-darkBlue{
+    background-color: #00063f;
+}
+.theme-darkBlue h2{
+    color: #e4f1ff;
+}
+.theme-darkBlue p{
+    color: #e4f1ff;
+}
+.theme-darkBlue span{
+    color: #e4f1ff;
+}
+.theme-darkBlue .card{
+    background-color: #0016b0;
+}
+.theme-darkBlue button.btn.btn-buy{
+    background-color: #00063f;
+}
+.theme-darkBlue button.btn.btn-buy:hover{
+    background-color: #e4f1ff;
+    color: #00063f;
+    border: 1px solid #00063f;
+}
+.theme-darkBlue .form-select{
+    background-color: #0016b0;
+    color: #e4f1ff;
+}
+.theme-darkBlue .footer{
+    background-color: #0016b0;
+}

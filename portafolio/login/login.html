@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" href="images/favicon.webp" type="image/x-icon" />
+    <title>Login Riwi</title>
+</head>
+
+<body>
+    <section class="h-100 gradient-form" style="background-color: #eee">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-10">
+                    <div class="card rounded-3 text-black">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <div class="card-body p-md-5 mx-md-4">
+                                    <div class="text-center">
+                                        <img src="images/favicon.webp" style="width: 250px" alt="logo" />
+                                    </div>
+
+                                    <form>
+                                        <p class="legend">Por favor ingresa su cuenta</p>
+
+                                        <div class="form-outline mb-4">
+                                            <input type="email" id="idEmail" class="form-control"
+                                                placeholder="Correo electrónico" />
+                                            <label class="form-label" id="idLabel">Correo</label>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <input type="password" id="idPassword" class="form-control"/>
+                                            <label class="form-label">Contraseña</label>
+                                        </div>
+
+                                        <div class="text-center pt-1 mb-5 pb-1">
+                                            <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                                                type="button" id="idLogin" onclick=validarDatos()>
+                                                Log in
+                                            </button>
+                                            <a class="text-muted" href="#!">¿Olvidaste la contraseña?</a>
+                                        </div>
+
+                                        <div id="idError"></div>
+
+                                        <div class="d-flex align-items-center justify-content-center pb-4">
+                                            <p class="mb-0 me-2">¿No tienes una cuenta?</p>
+                                            <button type="button" class="btn btn-outline-primary">
+                                                Crea una nueva
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                                <div class="px-3 py-4 p-md-5 mx-md-4">
+                                    <img src="images/Fondo-claro-logo.webp" alt="" id="banner" />
+                                    <p class="small mb-0">
+                                        En un mundo en constante evolución, existe una herramienta
+                                        poderosa: el desarrollo de software.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="login.js"></script>
+</body>
+
+</html>
