@@ -45,3 +45,35 @@ img {
 .form-label {
     transform-origin: top left;
   }
+
+  input
+
+
+input:focus #idLabel{
+    display: none;
+}
+
+
+.theme-femenino{
+    background-image: url("images/1330535.png");
+}
+
+.theme-femenino img{
+    margin: 5%;
+}
+
+.theme-femenino #contenido{
+    padding-top: 10%;
+}
+
+.theme-masculino{
+    background-image: url("images/wp2894117.jpg");
+}
+
+.theme-masculino img{
+    margin: 5%;
+}
+
+.theme-masculino #contenido{
+    padding-top: 10%;
+}
