@@ -1,0 +1,79 @@
+.gradient-custom-2 {
+    background: rgb(24,30,75);
+
+    background: linear-gradient(90deg, rgba(24,30,75,1) 0%, rgba(107,92,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.legend {
+    padding-top: 5%;
+}
+
+img {
+    border: none;
+}
+
+#banner{
+    width: 394px;
+}
+
+.small.mb-0 {
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+#idError{
+    color: red;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.form-label {
+    transform-origin: top left;
+  }
+
+  input
+
+
+input:focus #idLabel{
+    display: none;
+}
+
+
+.theme-femenino{
+    background-image: url("images/1330535.png");
+}
+
+.theme-femenino img{
+    margin: 5%;
+}
+
+.theme-femenino #contenido{
+    padding-top: 10%;
+}
+
+.theme-masculino{
+    background-image: url("images/wp2894117.jpg");
+}
+
+.theme-masculino img{
+    margin: 5%;
+}
+
+.theme-masculino #contenido{
+    padding-top: 10%;
+}
